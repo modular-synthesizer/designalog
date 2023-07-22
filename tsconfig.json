@@ -21,7 +21,7 @@
     "outDir": "dist",
     "declaration": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "env.d.ts"],
   "exclude": ["src/App.vue", "src/main.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
